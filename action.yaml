@@ -16,6 +16,7 @@ runs:
       env:
         FLAG_ONE: ${{ inputs.flag_one }}
       run: |
+        echo "Flag one is not true"
         echo "$FLAG_ONE"
 
     - name: Show flags
